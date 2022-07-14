@@ -28,12 +28,8 @@ new Swiper('.services-slider', {
 
 	breakpoints: {
 		320: {
-			slidesPerView: 0.55,
+			slidesPerView: 1,
 			spaceBetween: 20,
-			centeredSlides: true,
-		},
-		400: {
-			slidesPerView: 0.9,
 		},
 		550: {
 			slidesPerView: 1,
@@ -47,7 +43,6 @@ new Swiper('.services-slider', {
 		1621: {
 			slidesPerView: 4,
 		}
-
 	}
 
 });

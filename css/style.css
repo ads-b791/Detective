@@ -76,6 +76,7 @@ body {
 	margin: 0px auto;
 	box-sizing: content-box;
 }
+
 .button {
 	font-weight: 600;
 	font-size: 24px;
@@ -622,17 +623,18 @@ body {
 	margin-bottom: 150px;
 }
 .services__row {
-	padding: 100px 60px 100px 30px;
 	background: #F3F6F9;
 	border-radius: 50px;
 	display: flex;
 	flex-direction: column;
+	min-width: 0;
 }
 .services__heading {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 80px;
+	padding-top: 100px;
 }
 .services__subtitle {
 	margin-right: 480px;
@@ -678,9 +680,8 @@ body {
 .slider-buttons:hover{
 	background-color: #8198e0;
 }
-
 .services-slider__box {
-	max-width: 425px;
+	/*max-width: 425px;*/
 	min-height: 517px;
 	background: #FFFFFF;
 	border-radius: 40px;
@@ -691,7 +692,7 @@ body {
 	background: #F3F6F9;
 	border-radius: 30px;
 	margin-bottom: 30px;
-	max-width: 405px;
+	/*max-width: 405px;*/
 	min-height: 224px;
 	transition: transform .3s;
 	
@@ -710,7 +711,7 @@ body {
 	color: #142251;
 	margin-bottom: 30px;
 	padding-left: 30px;
-	max-width: 253px;
+	/*max-width: 253px;*/
 }
 .services-slider__list li:not(:last-child){
 	margin-bottom: 10px;
@@ -732,6 +733,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center right 24px;
 	transition: background-color .3s;
+	margin-bottom: 100px;
 }
 .services__btn:hover{
 	background-color: #2e448d;
